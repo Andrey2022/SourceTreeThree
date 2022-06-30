@@ -11,7 +11,11 @@
 		CE3623C8285A693C007FAA3B /* RegistrationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3623C7285A693C007FAA3B /* RegistrationStoryboard.storyboard */; };
 		CE3623CA285A6984007FAA3B /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3623C9285A6984007FAA3B /* RegistrationVC.swift */; };
 		CE3623CE285A70EA007FAA3B /* AppStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3623CD285A70EA007FAA3B /* AppStoryBoard.storyboard */; };
-		CE3623D0285A70FA007FAA3B /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3623CF285A70FA007FAA3B /* App.swift */; };
+		CE3623D0285A70FA007FAA3B /* FaceTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3623CF285A70FA007FAA3B /* FaceTabBarController.swift */; };
+		CE429FFE285DB8BA00366F9F /* SettingsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE429FFD285DB8BA00366F9F /* SettingsStoryboard.storyboard */; };
+		CE42A000285DB8E200366F9F /* SettingsVCTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE429FFF285DB8E200366F9F /* SettingsVCTV.swift */; };
+		CE42A003285DE79A00366F9F /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42A001285DE79A00366F9F /* FriendTableViewCell.swift */; };
+		CE42A004285DE79A00366F9F /* FriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE42A002285DE79A00366F9F /* FriendCell.xib */; };
 		CE48A407285A481500D98D3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48A406285A481500D98D3E /* AppDelegate.swift */; };
 		CE48A409285A481500D98D3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48A408285A481500D98D3E /* SceneDelegate.swift */; };
 		CE48A40B285A481500D98D3E /* EnterUAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48A40A285A481500D98D3E /* EnterUAppVC.swift */; };
@@ -20,6 +24,7 @@
 		CE48A413285A481600D98D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE48A412285A481600D98D3E /* Assets.xcassets */; };
 		CE48A416285A481600D98D3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE48A414285A481600D98D3E /* LaunchScreen.storyboard */; };
 		CE48A41E285A521B00D98D3E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48A41D285A521B00D98D3E /* Constant.swift */; };
+		CE4A9668286901A700B83A4A /* MyCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A9667286901A700B83A4A /* MyCollectionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +32,11 @@
 		CE3623C7285A693C007FAA3B /* RegistrationStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegistrationStoryboard.storyboard; sourceTree = "<group>"; };
 		CE3623C9285A6984007FAA3B /* RegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
 		CE3623CD285A70EA007FAA3B /* AppStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppStoryBoard.storyboard; sourceTree = "<group>"; };
-		CE3623CF285A70FA007FAA3B /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		CE3623CF285A70FA007FAA3B /* FaceTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTabBarController.swift; sourceTree = "<group>"; };
+		CE429FFD285DB8BA00366F9F /* SettingsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsStoryboard.storyboard; sourceTree = "<group>"; };
+		CE429FFF285DB8E200366F9F /* SettingsVCTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVCTV.swift; sourceTree = "<group>"; };
+		CE42A001285DE79A00366F9F /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		CE42A002285DE79A00366F9F /* FriendCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendCell.xib; sourceTree = "<group>"; };
 		CE48A403285A481500D98D3E /* CourseSecondLessonOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourseSecondLessonOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE48A406285A481500D98D3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE48A408285A481500D98D3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +47,7 @@
 		CE48A415285A481600D98D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE48A417285A481600D98D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE48A41D285A521B00D98D3E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CE4A9667286901A700B83A4A /* MyCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				CE3623CB285A69B9007FAA3B /* Main */,
-				CE3623CC285A70BA007FAA3B /* App */,
-				CE3623C6285A68DF007FAA3B /* Registration */,
 			);
 			path = EnterRegistration;
 			sourceTree = "<group>";
@@ -83,19 +91,64 @@
 		CE3623CB285A69B9007FAA3B /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				CE429FFC285DB89F00366F9F /* ContentApp */,
 				CE48A40C285A481500D98D3E /* Main.storyboard */,
 				CE48A40A285A481500D98D3E /* EnterUAppVC.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		CE3623CC285A70BA007FAA3B /* App */ = {
+		CE3623CC285A70BA007FAA3B /* TabBarApp */ = {
 			isa = PBXGroup;
 			children = (
+				CE4A96662869018000B83A4A /* CollectionView */,
 				CE3623CD285A70EA007FAA3B /* AppStoryBoard.storyboard */,
-				CE3623CF285A70FA007FAA3B /* App.swift */,
+				CE3623CF285A70FA007FAA3B /* FaceTabBarController.swift */,
 			);
-			name = App;
+			name = TabBarApp;
+			sourceTree = "<group>";
+		};
+		CE429FFB285DB4A900366F9F /* other */ = {
+			isa = PBXGroup;
+			children = (
+				CE48A408285A481500D98D3E /* SceneDelegate.swift */,
+				CE48A406285A481500D98D3E /* AppDelegate.swift */,
+				CE48A40F285A481500D98D3E /* CourseSecondLessonOne.xcdatamodeld */,
+				CE48A417285A481600D98D3E /* Info.plist */,
+				CE48A414285A481600D98D3E /* LaunchScreen.storyboard */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		CE429FFC285DB89F00366F9F /* ContentApp */ = {
+			isa = PBXGroup;
+			children = (
+				CE3623CC285A70BA007FAA3B /* TabBarApp */,
+				CE42A006285DE7BB00366F9F /* Friend */,
+				CE3623C6285A68DF007FAA3B /* Registration */,
+			);
+			name = ContentApp;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CE42A005285DE7A700366F9F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CE42A002285DE79A00366F9F /* FriendCell.xib */,
+				CE42A001285DE79A00366F9F /* FriendTableViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		CE42A006285DE7BB00366F9F /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				CE429FFF285DB8E200366F9F /* SettingsVCTV.swift */,
+				CE429FFD285DB8BA00366F9F /* SettingsStoryboard.storyboard */,
+				CE42A005285DE7A700366F9F /* Cell */,
+			);
+			name = Friend;
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		CE48A3FA285A481400D98D3E = {
@@ -117,15 +170,19 @@
 		CE48A405285A481500D98D3E /* CourseSecondLessonOne */ = {
 			isa = PBXGroup;
 			children = (
+				CE429FFB285DB4A900366F9F /* other */,
 				CE3623C5285A68CC007FAA3B /* EnterRegistration */,
-				CE48A406285A481500D98D3E /* AppDelegate.swift */,
-				CE48A408285A481500D98D3E /* SceneDelegate.swift */,
 				CE3623C4285A68B6007FAA3B /* Resources */,
-				CE48A414285A481600D98D3E /* LaunchScreen.storyboard */,
-				CE48A417285A481600D98D3E /* Info.plist */,
-				CE48A40F285A481500D98D3E /* CourseSecondLessonOne.xcdatamodeld */,
 			);
 			path = CourseSecondLessonOne;
+			sourceTree = "<group>";
+		};
+		CE4A96662869018000B83A4A /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				CE4A9667286901A700B83A4A /* MyCollectionController.swift */,
+			);
+			name = CollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,8 +242,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE429FFE285DB8BA00366F9F /* SettingsStoryboard.storyboard in Resources */,
 				CE3623CE285A70EA007FAA3B /* AppStoryBoard.storyboard in Resources */,
 				CE3623C8285A693C007FAA3B /* RegistrationStoryboard.storyboard in Resources */,
+				CE42A004285DE79A00366F9F /* FriendCell.xib in Resources */,
 				CE48A416285A481600D98D3E /* LaunchScreen.storyboard in Resources */,
 				CE48A413285A481600D98D3E /* Assets.xcassets in Resources */,
 				CE48A40E285A481500D98D3E /* Main.storyboard in Resources */,
@@ -200,14 +259,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3623D0285A70FA007FAA3B /* App.swift in Sources */,
+				CE3623D0285A70FA007FAA3B /* FaceTabBarController.swift in Sources */,
 				CE3623C3285A6116007FAA3B /* trash.swift in Sources */,
 				CE48A40B285A481500D98D3E /* EnterUAppVC.swift in Sources */,
 				CE48A411285A481500D98D3E /* CourseSecondLessonOne.xcdatamodeld in Sources */,
 				CE48A41E285A521B00D98D3E /* Constant.swift in Sources */,
 				CE48A407285A481500D98D3E /* AppDelegate.swift in Sources */,
+				CE42A000285DB8E200366F9F /* SettingsVCTV.swift in Sources */,
+				CE42A003285DE79A00366F9F /* FriendTableViewCell.swift in Sources */,
 				CE3623CA285A6984007FAA3B /* RegistrationVC.swift in Sources */,
 				CE48A409285A481500D98D3E /* SceneDelegate.swift in Sources */,
+				CE4A9668286901A700B83A4A /* MyCollectionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

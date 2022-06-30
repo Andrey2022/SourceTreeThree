@@ -19,4 +19,7 @@ enum Constants {
         static let appTabBarStoryBoard : UIStoryboard = .init(name: "AppStoryBoard", bundle: nil)
     }
     
+    enum Cell {
+        static let freindCell: String = "FriendCell"
+    }
 }

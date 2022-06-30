@@ -23,10 +23,10 @@ class EnterUAppVC: UIViewController {
     @IBOutlet var ButtonEnterOutlet: UIButton!
     @IBOutlet var ButtonRegistrationOutlet: UIButton!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        ButtonRegistrationOutlet.isHidden = true
-    }
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        ButtonRegistrationOutlet.isHidden = true
+//    }
 
     @IBAction func ButtonEnterRegistrationAction(_ sender: Any) {
         loginInApp ()
@@ -40,21 +40,24 @@ class EnterUAppVC: UIViewController {
 extension EnterUAppVC {
     
     func loginInApp () {
-        if LoginTextField.text == "" || PasswordTextField.text == "" {
-            alertFuncEnterData (Constants.StringAlert.alertEmptyText)
-        } else if let _ = dataBaseAppPeople[LoginTextField.text!]{
-            // login is have in dict
-            // check password for login
-            if PasswordTextField.text! == dataBaseAppPeople[LoginTextField.text!] {
-                print("Welcom")
-                goToAppPage()
-            } else {
-                alertFuncEnterData (Constants.StringAlert.alertPassword)
-            }
-        } else {
-            alertFuncEnterData (Constants.StringAlert.alertLogin)
-            ButtonRegistrationOutlet.isHidden = false
-        }
+        goToAppPage()
+        
+        //comment for tests
+//        if LoginTextField.text == "" || PasswordTextField.text == "" {
+//            alertFuncEnterData (Constants.StringAlert.alertEmptyText)
+//        } else if let _ = dataBaseAppPeople[LoginTextField.text!]{
+//            // login is have in dict
+//            // check password for login
+//            if PasswordTextField.text! == dataBaseAppPeople[LoginTextField.text!] {
+//                print("Welcom")
+//                goToAppPage()
+//            } else {
+//                alertFuncEnterData (Constants.StringAlert.alertPassword)
+//            }
+//        } else {
+//            alertFuncEnterData (Constants.StringAlert.alertLogin)
+//            ButtonRegistrationOutlet.isHidden = false
+//        }
     }
     
     func alertFuncEnterData (_ message: String ) {
@@ -85,16 +88,12 @@ extension EnterUAppVC {
             self.present(viewController, animated: true)
         }
     }
-//    func goToAppPage() {
-//        let tabBarController = Constants.StoryBoards.appTabBarStoryBoard.instantiateInitialViewController()
-//        if let tabBarController = tabBarController as? App {
-//            self.present(tabBarController, animated: true)
-//        }
-//    }
     func goToAppPage() {
         let tabBarController = Constants.StoryBoards.appTabBarStoryBoard.instantiateInitialViewController()
-        if let tabBarController = tabBarController as? App {
+        if let tabBarController = tabBarController as? FaceTabBarController {
+            tabBarController.modalPresentationStyle = .fullScreen
             self.present(tabBarController, animated: true)
+            
         }
     }
 }
