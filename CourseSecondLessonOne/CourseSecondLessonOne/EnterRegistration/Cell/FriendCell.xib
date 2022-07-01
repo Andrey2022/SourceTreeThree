@@ -55,11 +55,14 @@
                     </label>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="GoO-fD-QR1" firstAttribute="leading" secondItem="xaD-Hb-2yj" secondAttribute="trailing" constant="8" symbolic="YES" id="0kg-Gr-Ys9"/>
                     <constraint firstAttribute="trailing" secondItem="Eoc-iZ-BeP" secondAttribute="trailing" constant="16" id="6iH-kU-gKM"/>
                     <constraint firstAttribute="bottom" secondItem="KGI-in-65e" secondAttribute="bottom" id="8oO-kx-6hF"/>
                     <constraint firstItem="KGI-in-65e" firstAttribute="top" secondItem="Eoc-iZ-BeP" secondAttribute="bottom" constant="8" symbolic="YES" id="CiW-T0-JGe"/>
+                    <constraint firstItem="Eoc-iZ-BeP" firstAttribute="leading" secondItem="xaD-Hb-2yj" secondAttribute="trailing" constant="8" symbolic="YES" id="PNN-oW-IG7"/>
                     <constraint firstItem="xaD-Hb-2yj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Sbq-h5-HWA"/>
                     <constraint firstItem="KGI-in-65e" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="Vqk-vd-thL"/>
+                    <constraint firstItem="KGI-in-65e" firstAttribute="leading" secondItem="xaD-Hb-2yj" secondAttribute="trailing" constant="8" symbolic="YES" id="X1W-1p-ROA"/>
                     <constraint firstAttribute="trailing" secondItem="GoO-fD-QR1" secondAttribute="trailing" constant="16" id="dk6-d5-Kbk"/>
                     <constraint firstItem="KGI-in-65e" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="67" id="emt-Tt-80s"/>
                     <constraint firstItem="GoO-fD-QR1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="mdP-0D-Dr9"/>
@@ -72,6 +75,7 @@
                 <outlet property="cellLabelAgeFriend" destination="Eoc-iZ-BeP" id="xpC-B5-cRD"/>
                 <outlet property="cellLabelDateBirthday" destination="KGI-in-65e" id="8ZO-GF-AEU"/>
                 <outlet property="cellLabelNameFriend" destination="GoO-fD-QR1" id="C2S-ad-c4k"/>
+                <outlet property="imageFriend" destination="xaD-Hb-2yj" id="Ktb-Jb-OQh"/>
             </connections>
             <point key="canvasLocation" x="44.927536231884062" y="69.642857142857139"/>
         </tableViewCell>

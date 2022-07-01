@@ -16,10 +16,16 @@ enum Constants {
     
     enum StoryBoards {
         static let registrationStoryBoard : UIStoryboard = .init(name: "RegistrationStoryboard", bundle: nil)
-        static let appTabBarStoryBoard : UIStoryboard = .init(name: "AppStoryBoard", bundle: nil)
+        static let appTabBarStoryBoard : UIStoryboard = .init(name: "TabBarFace", bundle: nil)
     }
     
     enum Cell {
-        static let freindCell: String = "FriendCell"
+        //tableView
+        static let friendCell: String = "FriendCell"
+        
+        //collectionView
+        static let recomendationGroupCollectionView: String = "RecomendationGroupCollectionView"
+        static let myGroupsCollectionView: String = "MyGroupsCollectionView"
+        static let maybeFriensCollectionView: String = "MaybeFriensCollectionView"
     }
 }

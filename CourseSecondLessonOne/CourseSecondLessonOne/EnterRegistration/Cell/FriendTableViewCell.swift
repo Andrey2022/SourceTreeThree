@@ -8,11 +8,15 @@
 import UIKit
 
 class FriendTableViewCell: UITableViewCell {
-    @IBOutlet var cellLabelNameFriend: UILabel!
-    @IBOutlet var cellLabelAgeFriend: UILabel!
-    @IBOutlet var cellLabelDateBirthday: UILabel!
     
-    func configurate(name: String, age: String, dateBirthday: String){
+    @IBOutlet private var imageFriend: UIImageView!
+    @IBOutlet private var cellLabelNameFriend: UILabel!
+    @IBOutlet private var cellLabelAgeFriend: UILabel!
+    @IBOutlet private var cellLabelDateBirthday: UILabel!
+    
+    func configurate(name: String, imageFriendString: UIImage, age: String, dateBirthday: String){
+        
+        imageFriend.image = imageFriendString
         cellLabelNameFriend.text = name
         cellLabelAgeFriend.text = age
         cellLabelDateBirthday.text = dateBirthday
