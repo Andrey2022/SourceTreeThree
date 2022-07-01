@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  CourseSecondLessonOne
+//  1
 //
-//  Created by user on 15/06/2022.
+//  Created by user on 16/06/2022.
 //
 
 import UIKit
@@ -11,9 +11,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
+    @IBAction func tapBtn(_ sender: Any) {
+        
+    }
+    
+    
+    
 
 }
 
